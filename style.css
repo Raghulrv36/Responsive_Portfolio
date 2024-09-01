@@ -99,6 +99,8 @@ span {
 .home-img img {
     width: 25vw;
     animation: floatImage 4s ease-in-out infinite;
+    border-radius: 50%;
+    filter: drop-shadow(6px 6px 6px #59B2F4);
 }
 
 @keyframes floatImage {
